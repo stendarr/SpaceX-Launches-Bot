@@ -24,7 +24,7 @@ def latest_launch(bot, update):
     bot.send_message(update.message.chat_id, text, parse_mode=ParseMode.HTML)
 
 def main():
-    updater = Updater("token")
+    updater = Updater(token)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
