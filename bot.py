@@ -1,8 +1,10 @@
 from src.FormatHTML import strHTML
-import logging
+import logging, os
 from src import DictManager, Requests
 from telegram import ParseMode
 from telegram.ext import Updater, CommandHandler
+
+token = os.environ['TELEGRAM_TOKEN']
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
@@ -22,7 +24,7 @@ def latest_launch(bot, update):
     bot.send_message(update.message.chat_id, text, parse_mode=ParseMode.HTML)
 
 def main():
-    updater = Updater("TELEGRAM_TOKEN")
+    updater = Updater("token")
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
