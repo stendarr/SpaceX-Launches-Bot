@@ -16,7 +16,7 @@ def start(bot, update):
     text += "\n\nThere are two commands:\n/next and /last\nglhf."
     bot.send_message(update.message.chat_id, text, parse_mode=ParseMode.HTML)
 def info(bot, update):
-    text = "Bugs? Suggestions? Need help with your life insurance?\n" + strHTML("Contact Me").addURL("https://odrljin.xyz/#three") + " or visit this project's " + strHTML("GitHub page").addURL("https://github.com/stendarr/SpaceX-Launches-Bot")
+    text = "Bugs? Suggestions? Need help with your life insurance?\n" + strHTML("Contact Me").addURL("https://odrljin.xyz/#three") + " or visit this project's " + strHTML("GitHub page").addURL("https://github.com/stendarr/wheresmycar-bot")
     text += "\n\nThere are two commands:\n/next and /last\nglhf."
     bot.send_message(update.message.chat_id, text, parse_mode=ParseMode.HTML)
 def next_launch(bot, update):
