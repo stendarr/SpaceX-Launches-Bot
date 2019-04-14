@@ -1,16 +1,12 @@
-# SpaceX Launches Bot
+# Where's my car? bot
+
+If Elon wants to yeet another car into space, the least you can do is to know when it's happening. Don't miss any of SpaceX's launches with this bot.
 
 <p align="center"><br>
-  <a href="https://t.me/spacexlaunchesbot">TRY THE BOT</a>
+  <a href="https://t.me/wheresmycar_bot">Try me!</a>
   <br><br>
-  <img width="300px" src="assets/screenshot.png">
+  <img width="300px" src="screenshot.jpg">
 </p>
 
 
-Telegram bot for getting updates about upcoming SpaceX launches. <br />
-This projects uses the public API of [r/SpaceX](https://www.reddit.com/r/spacex)
-
-
-### Authors
-
-* **Matteo Meneghetti** - *Initial work* - [Personal Website](https://matteomeneghetti.dev)
+This projects uses the public [SpaceX-API](https://github.com/r-spacex/SpaceX-API) and has been forked from [this guy's bot](https://github.com/matteomeneghetti/SpaceX-Launches-Bot).
